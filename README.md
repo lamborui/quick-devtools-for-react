@@ -53,12 +53,12 @@ yarn install
 
 > yarn gen-view <options> : Generate `traditional class` react module source code
 
-![](../assets/img/gen-view-commands.png)
+![](https://github.com/lamborui/quick-devtools-for-react/blob/main/docs/assets/img/gen-view-commands.png)
 
 > yarn gen-func <options> : Generate `hook function` react module source code <recommend>
 
-![](../assets/img/gen-func-commands.png)
+![](https://github.com/lamborui/quick-devtools-for-react/blob/main/docs/assets/img/gen-func-commands.png)
 
 > yarn gen-store <options> : create an redux state module
 
-![](../assets/img/gen-store-commands.png)
+![](https://github.com/lamborui/quick-devtools-for-react/blob/main/docs/assets/img/gen-store-commands.png)
