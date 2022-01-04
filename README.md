@@ -49,7 +49,9 @@ yarn install
 - i18nextEnabled: Whether to integrate i18next international configuration
 - allPages: when addonMode =true , check sub module list
 
-### Quickly generate page module source code
+---
+
+## Quickly generate source code
 
 > yarn gen-view <options> : Generate `traditional class` react module source code
 
