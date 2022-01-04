@@ -1,6 +1,6 @@
 # quick-devtools-for-react
 
-> [Document] (https://lamborui.github.io/quick-devtools-for-react/#/README)
+> [Document](https://lamborui.github.io/quick-devtools-for-react/#/README)
 
 > Refactored from [quick-website-4rantd](https://github.com/BigerFront/quick-website-4rantd)
 
