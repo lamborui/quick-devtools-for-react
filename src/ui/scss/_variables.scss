@@ -1,0 +1,19 @@
+/* Customize variables */
+:root {
+  --brv-gray-color: rgba(243, 244, 246, 1);
+  --brv-gray-border-color: rgba(200, 204, 207, 1);
+  --brv-font-color: rgba(25, 25, 29, 1);
+  --brv-light-gray-color: rgb(242, 243, 244, 1);
+  --brv-placehodler-color: rgba(158, 161, 162, 1);
+  --brv-horizontal-space: 12px;
+  --font-size: 14px;
+}
+
+/* antd-mobile */
+:root:root {
+  --font-size: 14px;
+}
+
+/* Sass Variables */
+$p3Width: 375;
+$p3Height: 600;

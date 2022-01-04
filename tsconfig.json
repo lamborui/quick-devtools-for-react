@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": ["dom", "DOM.Iterable", "ESNext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmit": false,
+    "jsx": "react",
+    "baseUrl": "./",
+    "outDir": "/dist",
+    "paths": {
+      "~/*": ["src/*"],
+      "~Asset/*": ["src/asset/*"],
+      "~Lib/*": ["src/lib/*"],
+      "~Layout/*": ["src/layouts/*"],
+      "~Router/*": ["src/router/*"],
+      "~Store/*": ["src/store/*"],
+      "~UI/*": ["src/ui/*"],
+      "~Scss/*": ["src/ui/scss/*", "src/ui/css"],
+      "~Page/*": ["src/pages/*"],
+      "~Widget/*": ["src/widgets/*"],
+      "~Mock/*": ["src/mocks/*"],
+      "~P3View/*": ["src/popup/views/*"],
+      "~P3Store/*": ["src/popup/store/*"]
+    }
+  },
+  "exclude": ["dist", "node_modules", "**/*.spec.ts"]
+}

@@ -1,0 +1,10 @@
+{
+  "networks": {
+    "ropsten": "Ropsten",
+    "mainnet": "Ethereum Mainnet",
+    "kovan": "Kovan",
+    "bsc": "Binance Smart Chain",
+    "bscTest": "Biance Test"
+  },
+  "basDescription": "We provide “httpb” scheme url ( like httpb://❤) to notice Bas that this url need to be interpreted to ip address according blockchain data storage. Then we can access the website by ip. You can visit http://baschain.org/ to require free BAS and ETH on Ropsten test network, then you can spend BAS to register your own domain on blockchain!"
+}

@@ -1,0 +1,9 @@
+{
+  "networks": {
+    "ropsten": "Ropsten",
+    "mainnet": "以太坊主網",
+    "kovan": "Kovan",
+    "bsc": "幣安主網",
+    "bscTest": "幣安測試網"
+  }
+}

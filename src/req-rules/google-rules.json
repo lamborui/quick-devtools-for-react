@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "scheme": "https",
+          "host": "www.baschain.cn"
+        }
+      }
+    },
+    "condition": {
+      "urlFilter": "google.com/search?q=httpb",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]

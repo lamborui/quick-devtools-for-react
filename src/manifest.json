@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "BAS",
+  "version": "2.0.0",
+  "description": "Test",
+  "background": {
+    "service_worker": "background.bundle.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/bas-active-128.png"
+  },
+  "icons": {
+    "128": "icons/bas-active-128.png"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "google_search_httpb",
+        "enabled": true,
+        "path": "rules/google-rules.json"
+      }
+    ]
+  },
+  "permissions": [
+    "background",
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback",
+    "unlimitedStorage"
+  ],
+  "host_permissions": ["*://google.com/search?"]
+}
