@@ -18,12 +18,14 @@
   <body>
     <div id="app"></div>
     <script>
+      console.log(process)
       window.$docsify = {
         basePath: '/quick-devtools-for-react/',
         logo: 'https://raw.githubusercontent.com/lamborui/quick-devtools-for-react/main/ci/quick-logo.png',
         name: 'Quick DevTools For React',
         repo: 'https://github.com/lamborui/quick-devtools-for-react',
-        relativePath: true,
+        relativePath: false,
+        subMaxLevel: 2,
         coverpage: '_coverpage.md',
         alias: {
           '/assets':

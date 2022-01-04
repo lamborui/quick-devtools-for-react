@@ -1,6 +1,6 @@
 # quick-devtools-for-react
 
-> Refactor : https://github.com/BigerFront/quick-website-4rantd
+> Refactored from  [quick-website-4rantd](https://github.com/BigerFront/quick-website-4rantd)
 
 > This boilerplate can be used for single-page or multi-page app development can also be used for plug-in development
 

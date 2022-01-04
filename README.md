@@ -1,6 +1,8 @@
 # quick-devtools-for-react
 
-> Refactor : https://github.com/BigerFront/quick-website-4rantd
+> [Document] (https://lamborui.github.io/quick-devtools-for-react/#/README)
+
+> Refactored from [quick-website-4rantd](https://github.com/BigerFront/quick-website-4rantd)
 
 > This boilerplate can be used for single-page or multi-page app development can also be used for plug-in development
 
