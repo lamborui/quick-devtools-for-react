@@ -14,6 +14,7 @@
 - Router: react-router>= 6.2.x (not support v5 withRouter)
 - Internationalization : i18next
 - UI: antd-mobile >= 5
+- UI: BraveIcon
 
 ## The boilerplate Usage
 
