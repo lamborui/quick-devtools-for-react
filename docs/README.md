@@ -49,16 +49,16 @@ yarn install
 - i18nextEnabled: Whether to integrate i18next international configuration
 - allPages: when addonMode =true , check sub module list
 
-### Quickly generate page module source code
+### Quickly generate source code
 
 > yarn gen-view <options> : Generate `traditional class` react module source code
 
-![](https://github.com/lamborui/quick-devtools-for-react/blob/main/docs/assets/img/gen-view-commands.png)
+![](assets/img/gen-view-commands.png)
 
 > yarn gen-func <options> : Generate `hook function` react module source code <recommend>
 
-![](https://github.com/lamborui/quick-devtools-for-react/blob/main/docs/assets/img/gen-func-commands.png)
+![](assets/img/gen-func-commands.png)
 
 > yarn gen-store <options> : create an redux state module
 
-![](https://github.com/lamborui/quick-devtools-for-react/blob/main/docs/assets/img/gen-store-commands.png)
+![](assets/img/gen-store-commands.png)
