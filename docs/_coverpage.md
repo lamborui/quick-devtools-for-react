@@ -1,5 +1,5 @@
-# BAS Plugin
+# Quick DevTools For React
 
-<img src="assets/img/bas-addon.png" />
+<img src="assets/quick-logo.png" />
 
 [Let's go](README.md)

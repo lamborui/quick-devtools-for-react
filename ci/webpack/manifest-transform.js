@@ -27,7 +27,7 @@ module.exports.ManifestTransformPlugins = [
         transform: (content, absoluteFrom) => {
           let contentJson = JSON.parse(content.toString())
 
-          const version = EjectEnv['__APP_VERSION__'] || 'BAS'
+          const version = EjectEnv['__APP_VERSION__'] || 'Quick DevTools Demo'
           const author = EjectEnv['__APP_AUTHOR__'] || 'QuickDev Grp.'
           const { APP_NAME } = currDotEnvs
 

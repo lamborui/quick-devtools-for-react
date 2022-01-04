@@ -1,15 +1,64 @@
-# Httpb Plugin
+# quick-devtools-for-react
 
-> We provide “httpb” scheme url ( like httpb://❤) to notice Bas that this url need to be interpreted to ip address according blockchain data storage. Then we can access the website by ip. You can visit http://baschain.org/ to require free BAS and ETH on Ropsten test network, then you can spend BAS to register your own domain on blockchain!
+> Refactor : https://github.com/BigerFront/quick-website-4rantd
 
-## Version history
+> This boilerplate can be used for single-page or multi-page app development can also be used for plug-in development
+
+#### This boilerplate Integrate libraries
+
+> This boilerplate Integrate the following dependent libraries
+
+- React: react >=17.x & redux >= 4.1.x
+- Router: react-router>= 6.2.x (not support v5 withRouter)
+- Internationalization : i18next
+- UI: antd-mobile >= 5
+
+## The boilerplate Usage
+
+> Clone project into your workspace
+
+```bash
+git clone  https://github.com/lamborui/quick-devtools-for-react.git <your project name> && cd <your project name>
+yarn install
+```
+
+**Notice**
+
+- For plug-in development: Make sure the manifest.json file at src/ or Modify webpack config file [ci/webpack/manifest-transform.js]
+
+#### Local env config
+
+> Ensure your local configuration is more secure,you can set variables into config/.env.\*
 
 ---
 
-#### Release v1.0.3
+## Quick DevTools Commands Usage
 
-- Publish at 2020-03-20
+> Required Dependencies:
 
-#### Release V2.0.0
+- yargs
+- yarn
+- dot-env
+- webpack5
 
-- Come soon ...
+### Quick DevTools Settings
+
+> Configration file: ci/quickdev/qk-setting.js
+
+- addonMode: false [single page App];true [multi-page app or extension]
+- i18nextEnabled: Whether to integrate i18next international configuration
+- allPages: when addonMode =true , check sub module list
+
+### Quickly generate page module source code
+
+> yarn gen-view <options> : Generate `traditional class` react module source code
+
+![](../assets/img/gen-view-commands.png)
+
+> yarn gen-func <options> : Generate `hook function` react module source code <recommend>
+
+![](../assets/img/gen-func-commands.png)
+
+> yarn gen-store <options> : create an redux state module
+
+![](../assets/img/gen-store-commands.png)
