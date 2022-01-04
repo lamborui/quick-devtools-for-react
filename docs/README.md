@@ -1,6 +1,6 @@
 # quick-devtools-for-react
 
-> Refactored from  [quick-website-4rantd](https://github.com/BigerFront/quick-website-4rantd)
+> Refactored from [quick-website-4rantd](https://github.com/BigerFront/quick-website-4rantd)
 
 > This boilerplate can be used for single-page or multi-page app development can also be used for plug-in development
 
@@ -59,6 +59,6 @@ yarn install
 
 ![](assets/img/gen-func-commands.png)
 
-> yarn gen-store <options> : create an redux state module
+> yarn gen-store <options> : create an `redux state` module
 
 ![](assets/img/gen-store-commands.png)
