@@ -1,3 +1,4 @@
+const chalk = require('chalk')
 const open = require('open')
 const WebpackDevServer = require('webpack-dev-server')
 const webpack = require('webpack')
@@ -54,6 +55,10 @@ const devServerOptions = {
   },
   // allowedHosts: ['xxx.com'], // all,auto,['']
 }
+
+// extension set 127.0.0.1 app 0.0.0.0 resolve permission for websocket
+devServerOptions.host = '127.0.0.1'
+
 const compiler = webpack(devWebpackOptions)
 const server = new WebpackDevServer(devServerOptions, compiler)
 
@@ -61,7 +66,7 @@ const server = new WebpackDevServer(devServerOptions, compiler)
 
 const startServer = async () => {
   server.startCallback(() => {
-    console.log('>>>>start server')
+    console.log(chalk.magentaBright('>>>>start Quick DevTools Server'))
   })
 }
 

@@ -11,7 +11,7 @@ const chalk = require('chalk')
 const fs = require('fs-extra')
 const DotenvWebpack = require('dotenv-webpack')
 const envSuffix = process.env.NODE_ENV || 'development'
-console.log('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>', process.env.NODE_ENV)
+
 const dotenvWebpackPlugin = new DotenvWebpack({
   path: `./config/.env.${envSuffix}`,
   defaults: './config/.env',
