@@ -152,7 +152,7 @@ function writeFuncCompFile(filepath, options = {}) {
       '\n' +
       `  return (\n` +
       `    <div>\n` +
-      `      <span onclick={ demoEvtHandler }>${compName} container content</span>\n` +
+      `      <span onClick={ demoEvtHandler }>${compName} container content</span>\n` +
       `    </div>\n` +
       `  )\n`
   }
