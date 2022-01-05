@@ -144,7 +144,7 @@ function writeFuncCompFile(filepath, options = {}) {
       '\n' +
       `  return (\n` +
       `    <div className='${modStylePrefix}-container'>\n` +
-      `      <span onclick={ demoEvtHandler }>${compName} container content</span>\n` +
+      `      <span onClick={ demoEvtHandler }>${compName} container content</span>\n` +
       `    </div>\n` +
       `  )\n`
   } else {
